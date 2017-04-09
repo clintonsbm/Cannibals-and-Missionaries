@@ -7,27 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00E610300296089E7E50E33E /* Pods_Cannibals_and_Missionaries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3189B8E7DC0E615AC3FFB5AA /* Pods_Cannibals_and_Missionaries.framework */; };
 		230BEC5C1E97BA7100AD8705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230BEC5B1E97BA7100AD8705 /* AppDelegate.swift */; };
-		230BEC5E1E97BA7100AD8705 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 230BEC5D1E97BA7100AD8705 /* GameScene.sks */; };
-		230BEC601E97BA7100AD8705 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 230BEC5F1E97BA7100AD8705 /* Actions.sks */; };
 		230BEC621E97BA7100AD8705 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230BEC611E97BA7100AD8705 /* GameScene.swift */; };
 		230BEC641E97BA7100AD8705 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230BEC631E97BA7100AD8705 /* GameViewController.swift */; };
 		230BEC671E97BA7100AD8705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230BEC651E97BA7100AD8705 /* Main.storyboard */; };
 		230BEC691E97BA7100AD8705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230BEC681E97BA7100AD8705 /* Assets.xcassets */; };
 		230BEC6C1E97BA7100AD8705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230BEC6A1E97BA7100AD8705 /* LaunchScreen.storyboard */; };
+		238959E31E97C42A00547FFF /* BreadthSearchFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238959E21E97C42A00547FFF /* BreadthSearchFirst.swift */; };
+		238959E51E97C45900547FFF /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238959E41E97C45900547FFF /* State.swift */; };
+		238959E81E97C97200547FFF /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238959E71E97C97200547FFF /* LinkedList.swift */; };
+		238959EA1E97C99700547FFF /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238959E91E97C99700547FFF /* LinkedListNode.swift */; };
+		238959ED1E97DE5C00547FFF /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238959EC1E97DE5C00547FFF /* Queue.swift */; };
+		238959EF1E97DF1E00547FFF /* HashSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238959EE1E97DF1E00547FFF /* HashSet.swift */; };
+		238959F11E97E9C100547FFF /* DepthLimitedSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238959F01E97E9C100547FFF /* DepthLimitedSearch.swift */; };
+		238959F51E9A767500547FFF /* CannibalsAndMissionaries.sks in Resources */ = {isa = PBXBuildFile; fileRef = 238959F41E9A767500547FFF /* CannibalsAndMissionaries.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21FC771A0C83F3FE2F65D76B /* Pods-Cannibals and Missionaries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cannibals and Missionaries.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cannibals and Missionaries/Pods-Cannibals and Missionaries.debug.xcconfig"; sourceTree = "<group>"; };
 		230BEC581E97BA7100AD8705 /* Cannibals and Missionaries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cannibals and Missionaries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		230BEC5B1E97BA7100AD8705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		230BEC5D1E97BA7100AD8705 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		230BEC5F1E97BA7100AD8705 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		230BEC611E97BA7100AD8705 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		230BEC631E97BA7100AD8705 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		230BEC661E97BA7100AD8705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		230BEC681E97BA7100AD8705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		230BEC6B1E97BA7100AD8705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		230BEC6D1E97BA7100AD8705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238959E21E97C42A00547FFF /* BreadthSearchFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreadthSearchFirst.swift; sourceTree = "<group>"; };
+		238959E41E97C45900547FFF /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		238959E71E97C97200547FFF /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		238959E91E97C99700547FFF /* LinkedListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
+		238959EC1E97DE5C00547FFF /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		238959EE1E97DF1E00547FFF /* HashSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashSet.swift; sourceTree = "<group>"; };
+		238959F01E97E9C100547FFF /* DepthLimitedSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthLimitedSearch.swift; sourceTree = "<group>"; };
+		238959F41E9A767500547FFF /* CannibalsAndMissionaries.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CannibalsAndMissionaries.sks; sourceTree = "<group>"; };
+		3189B8E7DC0E615AC3FFB5AA /* Pods_Cannibals_and_Missionaries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cannibals_and_Missionaries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D46BA3497CCA63BDFEB4286 /* Pods-Cannibals and Missionaries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cannibals and Missionaries.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cannibals and Missionaries/Pods-Cannibals and Missionaries.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E610300296089E7E50E33E /* Pods_Cannibals_and_Missionaries.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A167FD035EC076ADE16E76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21FC771A0C83F3FE2F65D76B /* Pods-Cannibals and Missionaries.debug.xcconfig */,
+				3D46BA3497CCA63BDFEB4286 /* Pods-Cannibals and Missionaries.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		230BEC4F1E97BA7000AD8705 = {
 			isa = PBXGroup;
 			children = (
 				230BEC5A1E97BA7100AD8705 /* Cannibals and Missionaries */,
 				230BEC591E97BA7100AD8705 /* Products */,
+				03A167FD035EC076ADE16E76 /* Pods */,
+				87C7D6FACE2B6B1919235ED7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +88,47 @@
 		230BEC5A1E97BA7100AD8705 /* Cannibals and Missionaries */ = {
 			isa = PBXGroup;
 			children = (
+				238959EB1E97C9B100547FFF /* IA Code */,
+				238959E61E97C94800547FFF /* Support Libs */,
 				230BEC5B1E97BA7100AD8705 /* AppDelegate.swift */,
-				230BEC5D1E97BA7100AD8705 /* GameScene.sks */,
-				230BEC5F1E97BA7100AD8705 /* Actions.sks */,
 				230BEC611E97BA7100AD8705 /* GameScene.swift */,
 				230BEC631E97BA7100AD8705 /* GameViewController.swift */,
+				238959F41E9A767500547FFF /* CannibalsAndMissionaries.sks */,
 				230BEC651E97BA7100AD8705 /* Main.storyboard */,
 				230BEC681E97BA7100AD8705 /* Assets.xcassets */,
 				230BEC6A1E97BA7100AD8705 /* LaunchScreen.storyboard */,
 				230BEC6D1E97BA7100AD8705 /* Info.plist */,
 			);
 			path = "Cannibals and Missionaries";
+			sourceTree = "<group>";
+		};
+		238959E61E97C94800547FFF /* Support Libs */ = {
+			isa = PBXGroup;
+			children = (
+				238959E71E97C97200547FFF /* LinkedList.swift */,
+				238959E91E97C99700547FFF /* LinkedListNode.swift */,
+				238959EC1E97DE5C00547FFF /* Queue.swift */,
+				238959EE1E97DF1E00547FFF /* HashSet.swift */,
+			);
+			name = "Support Libs";
+			sourceTree = "<group>";
+		};
+		238959EB1E97C9B100547FFF /* IA Code */ = {
+			isa = PBXGroup;
+			children = (
+				238959E21E97C42A00547FFF /* BreadthSearchFirst.swift */,
+				238959E41E97C45900547FFF /* State.swift */,
+				238959F01E97E9C100547FFF /* DepthLimitedSearch.swift */,
+			);
+			name = "IA Code";
+			sourceTree = "<group>";
+		};
+		87C7D6FACE2B6B1919235ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3189B8E7DC0E615AC3FFB5AA /* Pods_Cannibals_and_Missionaries.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 230BEC701E97BA7100AD8705 /* Build configuration list for PBXNativeTarget "Cannibals and Missionaries" */;
 			buildPhases = (
+				CBEDDC93ABD087B2BC5A1882 /* [CP] Check Pods Manifest.lock */,
 				230BEC541E97BA7100AD8705 /* Sources */,
 				230BEC551E97BA7100AD8705 /* Frameworks */,
 				230BEC561E97BA7100AD8705 /* Resources */,
+				24CFC525FA8F33A0ED2591FA /* [CP] Embed Pods Frameworks */,
+				70F0A5D59100FEC11623C14A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,23 +195,77 @@
 			buildActionMask = 2147483647;
 			files = (
 				230BEC671E97BA7100AD8705 /* Main.storyboard in Resources */,
-				230BEC5E1E97BA7100AD8705 /* GameScene.sks in Resources */,
 				230BEC691E97BA7100AD8705 /* Assets.xcassets in Resources */,
 				230BEC6C1E97BA7100AD8705 /* LaunchScreen.storyboard in Resources */,
-				230BEC601E97BA7100AD8705 /* Actions.sks in Resources */,
+				238959F51E9A767500547FFF /* CannibalsAndMissionaries.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24CFC525FA8F33A0ED2591FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cannibals and Missionaries/Pods-Cannibals and Missionaries-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70F0A5D59100FEC11623C14A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cannibals and Missionaries/Pods-Cannibals and Missionaries-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBEDDC93ABD087B2BC5A1882 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		230BEC541E97BA7100AD8705 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238959EA1E97C99700547FFF /* LinkedListNode.swift in Sources */,
+				238959E81E97C97200547FFF /* LinkedList.swift in Sources */,
 				230BEC621E97BA7100AD8705 /* GameScene.swift in Sources */,
+				238959ED1E97DE5C00547FFF /* Queue.swift in Sources */,
 				230BEC641E97BA7100AD8705 /* GameViewController.swift in Sources */,
 				230BEC5C1E97BA7100AD8705 /* AppDelegate.swift in Sources */,
+				238959F11E97E9C100547FFF /* DepthLimitedSearch.swift in Sources */,
+				238959E51E97C45900547FFF /* State.swift in Sources */,
+				238959EF1E97DF1E00547FFF /* HashSet.swift in Sources */,
+				238959E31E97C42A00547FFF /* BreadthSearchFirst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +388,7 @@
 		};
 		230BEC711E97BA7100AD8705 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21FC771A0C83F3FE2F65D76B /* Pods-Cannibals and Missionaries.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CHFJK9QNS7;
@@ -286,6 +402,7 @@
 		};
 		230BEC721E97BA7100AD8705 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D46BA3497CCA63BDFEB4286 /* Pods-Cannibals and Missionaries.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CHFJK9QNS7;
@@ -316,6 +433,7 @@
 				230BEC721E97BA7100AD8705 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
