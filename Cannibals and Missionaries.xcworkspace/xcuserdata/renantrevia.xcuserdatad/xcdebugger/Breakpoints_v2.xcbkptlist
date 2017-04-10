@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cannibals and Missionaries/BreadthSearchFirst.swift"
+            timestampString = "513441581.980956"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "execute(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cannibals_and_Missionaries.BreadthFirstSearch.execute (Cannibals_and_Missionaries.State) -&gt; Swift.Optional&lt;Cannibals_and_Missionaries.State&gt;"
+                  moduleName = "Cannibals and Missionaries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renantrevia/Documents/IFCE/9%C2%B0%20Semestre/Intelige%CC%82ncia%20Computacional/Trabalho%2001/Cannibals%20and%20Missionaries/Cannibals%20and%20Missionaries/BreadthSearchFirst.swift"
+                  timestampString = "513441582.06735"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1050">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cannibals_and_Missionaries.BreadthFirstSearch.(execute (Cannibals_and_Missionaries.State) -&gt; Swift.Optional&lt;Cannibals_and_Missionaries.State&gt;).(closure #1)"
+                  moduleName = "Cannibals and Missionaries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renantrevia/Documents/IFCE/9%C2%B0%20Semestre/Intelige%CC%82ncia%20Computacional/Trabalho%2001/Cannibals%20and%20Missionaries/Cannibals%20and%20Missionaries/BreadthSearchFirst.swift"
+                  timestampString = "513441582.069577"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cannibals and Missionaries/BreadthSearchFirst.swift"
+            timestampString = "513441581.980956"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "execute(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cannibals_and_Missionaries.BreadthFirstSearch.(execute (Cannibals_and_Missionaries.State) -&gt; Swift.Optional&lt;Cannibals_and_Missionaries.State&gt;).(closure #1)"
+                  moduleName = "Cannibals and Missionaries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renantrevia/Documents/IFCE/9%C2%B0%20Semestre/Intelige%CC%82ncia%20Computacional/Trabalho%2001/Cannibals%20and%20Missionaries/Cannibals%20and%20Missionaries/BreadthSearchFirst.swift"
+                  timestampString = "513441582.075756"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "187">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cannibals_and_Missionaries.BreadthFirstSearch.(execute (Cannibals_and_Missionaries.State) -&gt; Swift.Optional&lt;Cannibals_and_Missionaries.State&gt;).(closure #1).(closure #1)"
+                  moduleName = "Cannibals and Missionaries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renantrevia/Documents/IFCE/9%C2%B0%20Semestre/Intelige%CC%82ncia%20Computacional/Trabalho%2001/Cannibals%20and%20Missionaries/Cannibals%20and%20Missionaries/BreadthSearchFirst.swift"
+                  timestampString = "513441582.078379"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

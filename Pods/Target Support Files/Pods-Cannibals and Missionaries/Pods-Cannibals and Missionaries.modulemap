@@ -1,0 +1,6 @@
+framework module Pods_Cannibals_and_Missionaries {
+  umbrella header "Pods-Cannibals and Missionaries-umbrella.h"
+
+  export *
+  module * { export * }
+}
