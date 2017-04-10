@@ -13,8 +13,8 @@ class GameScene: SKScene {
     override func didMove(to view: SKView) {
         let initialState = State(cannibalsLeft: 3, missionariesLeft: 3, withBoatPosition: Position.left, cannibalsRight: 0, missionariesRight: 0)
         
-        executeBFS(withInitialState: initialState)
-//        executeDLS(withInitialState: initialState)
+//        executeBFS(withInitialState: initialState)
+        executeDLS(withInitialState: initialState)
     }
     
     // MARK: - TOUCH DELEGATE 01
