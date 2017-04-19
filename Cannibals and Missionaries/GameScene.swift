@@ -2,7 +2,7 @@
 //  GameScene.swift
 //  Cannibals and Missionaries
 //
-//  Created by Renan Trévia on 4/7/17.
+//  Created by Renan Trévia and Clinton de Sá on 4/7/17.
 //  Copyright © 2017 Renan Trévia. All rights reserved.
 //
 
